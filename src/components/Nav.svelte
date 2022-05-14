@@ -1,5 +1,5 @@
 <nav>
-	<a href="/"> Movies Database </a>
+	<h1><a href="/"> Movies Database </a></h1>
 </nav>
 
 <style>
@@ -11,8 +11,6 @@
 	}
 	a {
 		padding: 0.5rem;
-		font-size: 1rem;
-		font-weight: bold;
 		text-decoration: none;
 		color: black;
 	}

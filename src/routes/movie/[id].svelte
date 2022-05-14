@@ -15,6 +15,43 @@
 
 <script>
 	export let movieDetails;
+	export function printDate(date) {
+		let dateObj = new Date(movieDetails.release_date);
+		const monthNames = [
+			'Jan',
+			'Feb',
+			'Mar',
+			'Apr',
+			'May',
+			'Jun',
+			'Jul',
+			'Aug',
+			'Sep',
+			'Oct',
+			'Nov',
+			'Dec'
+		];
+		return dateObj.getDate() + ' ' + monthNames[dateObj.getMonth()] + ' ' + dateObj.getFullYear();
+	}
+	export function formatMoneyCount(count) {
+		if (count < 1000) {
+			return count;
+		} else if (count < 1000000) {
+			return Math.floor(count / 1000) + ' k';
+		} else if (count < 1000000000) {
+			return Math.floor(count / 1000000) + ' M';
+		} else if (count < 1000000000000) {
+			return Math.floor(count / 1000000000) + ' B';
+		} else {
+			return Math.floor(count / 1000000000) + ' T';
+		}
+	}
+	export function formatVoteCount(voteCount) {
+		return voteCount > 1000 ? Math.round(voteCount / 1000) + 'k' : voteCount;
+	}
+	export function printTime(time) {
+		return time >= 60 ? Math.floor(time / 60) + ' hr ' + (time % 60) : time;
+	}
 </script>
 
 <div class="movie-details">
@@ -29,19 +66,19 @@
 		<div class="movie-numbers">
 			<div>
 				<span>Release Date: </span>
-				{movieDetails.release_date}
+				{printDate(movieDetails.release_date)}
 			</div>
 			<div>
 				<span>Rating: </span>
-				{movieDetails.vote_average} ({movieDetails.vote_count} votes)
+				{movieDetails.vote_average}/10 ({formatVoteCount(movieDetails.vote_count)} votes)
 			</div>
 			<div>
 				<span>Budget: </span>
-				{movieDetails.budget}
+				{movieDetails.budget === 0 ? '-' : formatMoneyCount(movieDetails.budget)}
 			</div>
 			<div>
 				<span>Runtime: </span>
-				{movieDetails.runtime} mins
+				{printTime(movieDetails.runtime)} mins
 			</div>
 		</div>
 		<p class="description">{movieDetails.overview}</p>
@@ -73,6 +110,7 @@
 	img {
 		width: 100%;
 		border-radius: 1rem;
+		box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 	}
 
 	span {
