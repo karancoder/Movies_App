@@ -1,0 +1,101 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-3a1c247d.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-bb418885.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/movie/[id].svelte",
+      "src/routes/search/[id].svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-82e98f99.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-bb418885.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-760fbc68.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-02c7fc7d.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-bb418885.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-cc6ec1eb.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-bb418885.js",
+      "_index-8071ad13.js",
+      "_MoviesCard-1d28faef.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "css": [
+      "assets/pages/index.svelte-f7702668.css"
+    ]
+  },
+  "src/routes/movie/[id].svelte": {
+    "file": "pages/movie/_id_.svelte-d24a119d.js",
+    "src": "src/routes/movie/[id].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-bb418885.js",
+      "_index-8071ad13.js"
+    ],
+    "css": [
+      "assets/pages/movie/_id_.svelte-09718b08.css"
+    ]
+  },
+  "src/routes/search/[id].svelte": {
+    "file": "pages/search/_id_.svelte-687af379.js",
+    "src": "src/routes/search/[id].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-bb418885.js",
+      "_MoviesCard-1d28faef.js"
+    ],
+    "css": [
+      "assets/pages/search/_id_.svelte-dcb060a2.css"
+    ]
+  },
+  "_index-bb418885.js": {
+    "file": "chunks/index-bb418885.js"
+  },
+  "_singletons-d1fb5791.js": {
+    "file": "chunks/singletons-d1fb5791.js"
+  },
+  "_index-8071ad13.js": {
+    "file": "chunks/index-8071ad13.js",
+    "imports": [
+      "_index-bb418885.js"
+    ]
+  },
+  "_MoviesCard-1d28faef.js": {
+    "file": "chunks/MoviesCard-1d28faef.js",
+    "imports": [
+      "_index-bb418885.js"
+    ],
+    "css": [
+      "assets/MoviesCard-0ac41bb3.css"
+    ]
+  }
+}
