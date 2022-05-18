@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content=""><title>Movies App</title>
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-760fbc68.css">
+	<link rel="stylesheet" href="/_app/assets/pages/movie/_id_.svelte-09718b08.css">
+	<link rel="modulepreload" href="/_app/start-99fb72aa.js">
+	<link rel="modulepreload" href="/_app/chunks/index-bb418885.js">
+	<link rel="modulepreload" href="/_app/chunks/singletons-d1fb5791.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-82e98f99.js">
+	<link rel="modulepreload" href="/_app/pages/movie/_id_.svelte-dab2f65e.js">
+	<link rel="modulepreload" href="/_app/chunks/index-8071ad13.js">
+	</head>
+	<body>
+		<div>
+
+
+
+
+<nav class="svelte-jzp9vu"><h1><a href="/" class="svelte-jzp9vu">Movies Database </a></h1>
+</nav>
+
+<div class="movie-details svelte-hct37n"><div class="img-container svelte-hct37n"><img src="https://image.tmdb.org/t/p/original/gG9fTyDL03fiKnOpf2tr01sncnt.jpg" alt="movieDetails.title" class="svelte-hct37n"></div>
+	<div class="data-container"><h1 class="svelte-hct37n">Morbius</h1>
+		<div class="movie-numbers svelte-hct37n"><div><span class="svelte-hct37n">Release Date: </span>
+				30 Mar 2022</div>
+			<div><span class="svelte-hct37n">Rating: </span>
+				6.2/10 (796 votes)
+			</div>
+			<div><span class="svelte-hct37n">Budget: </span>
+				75 M</div>
+			<div><span class="svelte-hct37n">Runtime: </span>
+				1 hr 44 mins
+			</div></div>
+		<p class="description svelte-hct37n">Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.</p></div>
+</div>
+
+
+		<script type="module" data-hydrate="1721o2p">
+		import { start } from "/_app/start-99fb72aa.js";
+		start({
+			target: document.querySelector('[data-hydrate="1721o2p"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-82e98f99.js"),
+						import("/_app/pages/movie/_id_.svelte-dab2f65e.js")
+				],
+				params: {id:"526896"},
+				routeId: "movie/[id]"
+			}
+		});
+	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="https://api.themoviedb.org/3/movie/526896?api_key=b5bc75631810aa3e97c310dfa067d9b0&amp;language=en-US">{"status":200,"statusText":"OK","headers":{"access-control-allow-methods":"GET, HEAD, POST, PUT, DELETE, OPTIONS","access-control-allow-origin":"*","access-control-expose-headers":"ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range","age":"14804","cache-control":"public, max-age=28800","connection":"close","content-encoding":"gzip","content-type":"application/json;charset=utf-8","date":"Wed, 18 May 2022 05:50:18 GMT","server":"openresty","transfer-encoding":"chunked","vary":"Accept-Encoding","via":"1.1 fc28a7b580c6676ba3b08d37c9079474.cloudfront.net (CloudFront)","x-amz-cf-id":"FfzW4JfGpFYyzZGRL5yPkoKBvv6ZHCQC3VotbxaaPypo71cyzVjr8Q==","x-amz-cf-pop":"MRS52-C1","x-cache":"Hit from cloudfront","x-memc":"HIT","x-memc-age":"7618","x-memc-expires":"8952","x-memc-key":"ce770fcdd6055d71be89e96a412fedb9491f9ac3"},"body":"{\"adult\":false,\"backdrop_path\":\"/gG9fTyDL03fiKnOpf2tr01sncnt.jpg\",\"belongs_to_collection\":null,\"budget\":75000000,\"genres\":[{\"id\":28,\"name\":\"Action\"},{\"id\":878,\"name\":\"Science Fiction\"},{\"id\":14,\"name\":\"Fantasy\"}],\"homepage\":\"https://www.morbius.movie/\",\"id\":526896,\"imdb_id\":\"tt5108870\",\"original_language\":\"en\",\"original_title\":\"Morbius\",\"overview\":\"Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.\",\"popularity\":2304.652,\"poster_path\":\"/6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg\",\"production_companies\":[{\"id\":5,\"logo_path\":\"/71BqEFAF4V3qjjMPCpLuyJFB9A.png\",\"name\":\"Columbia Pictures\",\"origin_country\":\"US\"},{\"id\":7505,\"logo_path\":\"/837VMM4wOkODc1idNxGT0KQJlej.png\",\"name\":\"Marvel Entertainment\",\"origin_country\":\"US\"}],\"production_countries\":[{\"iso_3166_1\":\"US\",\"name\":\"United States of America\"}],\"release_date\":\"2022-03-30\",\"revenue\":161000000,\"runtime\":104,\"spoken_languages\":[{\"english_name\":\"English\",\"iso_639_1\":\"en\",\"name\":\"English\"}],\"status\":\"Released\",\"tagline\":\"A new Marvel legend arrives.\",\"title\":\"Morbius\",\"video\":false,\"vote_average\":6.2,\"vote_count\":796}"}</script></div>
+	</body>
+</html>

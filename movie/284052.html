@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content="" />
+		<title>Movies App</title>
+		<link rel="stylesheet" href="./_app/assets/pages/__layout.svelte-760fbc68.css" />
+		<link rel="stylesheet" href="./_app/assets/pages/movie/_id_.svelte-09718b08.css" />
+		<link rel="modulepreload" href="./_app/start-99fb72aa.js" />
+		<link rel="modulepreload" href="./_app/chunks/index-bb418885.js" />
+		<link rel="modulepreload" href="./_app/chunks/singletons-d1fb5791.js" />
+		<link rel="modulepreload" href="./_app/pages/__layout.svelte-82e98f99.js" />
+		<link rel="modulepreload" href="./_app/pages/movie/_id_.svelte-dab2f65e.js" />
+		<link rel="modulepreload" href="./_app/chunks/index-8071ad13.js" />
+	</head>
+	<body>
+		<div>
+			<nav class="svelte-jzp9vu">
+				<h1><a href="/" class="svelte-jzp9vu">Movies Database </a></h1>
+			</nav>
+
+			<div class="movie-details svelte-hct37n">
+				<div class="img-container svelte-hct37n">
+					<img
+						src="https://image.tmdb.org/t/p/original/eQN31P4IEhyp6NkdccvppJnyuJ4.jpg"
+						alt="movieDetails.title"
+						class="svelte-hct37n"
+					/>
+				</div>
+				<div class="data-container">
+					<h1 class="svelte-hct37n">Doctor Strange</h1>
+					<div class="movie-numbers svelte-hct37n">
+						<div><span class="svelte-hct37n">Release Date: </span> 25 Oct 2016</div>
+						<div>
+							<span class="svelte-hct37n">Rating: </span>
+							7.4/10 (19k votes)
+						</div>
+						<div><span class="svelte-hct37n">Budget: </span> 165 M</div>
+						<div>
+							<span class="svelte-hct37n">Runtime: </span>
+							1 hr 55 mins
+						</div>
+					</div>
+					<p class="description svelte-hct37n">
+						After his career is destroyed, a brilliant but arrogant surgeon gets a new lease on life
+						when a sorcerer takes him under her wing and trains him to defend the world against
+						evil.
+					</p>
+				</div>
+			</div>
+
+			<script type="module" data-hydrate="nzps3k">
+				import { start } from './_app/start-99fb72aa.js';
+				start({
+					target: document.querySelector('[data-hydrate="nzps3k"]').parentNode,
+					paths: { base: '', assets: '' },
+					session: {},
+					route: true,
+					spa: false,
+					trailing_slash: 'never',
+					hydrate: {
+						status: 200,
+						error: null,
+						nodes: [
+							import('./_app/pages/__layout.svelte-82e98f99.js'),
+							import('./_app/pages/movie/_id_.svelte-dab2f65e.js')
+						],
+						params: { id: '284052' },
+						routeId: 'movie/[id]'
+					}
+				});
+			</script>
+			<script
+				type="application/json"
+				sveltekit:data-type="data"
+				sveltekit:data-url="https://api.themoviedb.org/3/movie/284052?api_key=b5bc75631810aa3e97c310dfa067d9b0&amp;language=en-US"
+			>
+				{
+					"status": 200,
+					"statusText": "OK",
+					"headers": {
+						"access-control-allow-methods": "GET, HEAD, POST, PUT, DELETE, OPTIONS",
+						"access-control-allow-origin": "*",
+						"access-control-expose-headers": "ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range",
+						"age": "14804",
+						"cache-control": "public, max-age=28800",
+						"connection": "close",
+						"content-encoding": "gzip",
+						"content-type": "application/json;charset=utf-8",
+						"date": "Wed, 18 May 2022 05:50:22 GMT",
+						"server": "openresty",
+						"transfer-encoding": "chunked",
+						"vary": "Accept-Encoding",
+						"via": "1.1 4a0cc1ef0dc7ada28fa94de0447121fe.cloudfront.net (CloudFront)",
+						"x-amz-cf-id": "z6QetaSLpiKXd02qi3JOOD8cO0mX3W7sjnCapc-0XAVu_bplnL9K2Q==",
+						"x-amz-cf-pop": "MRS52-C1",
+						"x-cache": "Hit from cloudfront",
+						"x-memc": "HIT",
+						"x-memc-age": "11405",
+						"x-memc-expires": "4212",
+						"x-memc-key": "7739fcc91596f6a64e2781bca259bd11ce16d8e6"
+					},
+					"body": "{\"adult\":false,\"backdrop_path\":\"/eQN31P4IEhyp6NkdccvppJnyuJ4.jpg\",\"belongs_to_collection\":{\"id\":618529,\"name\":\"Doctor Strange Collection\",\"poster_path\":\"/bm7UlW3ctMJAvD6NNXrCDdRyyKn.jpg\",\"backdrop_path\":\"/5ZuctJh5uX5L2dz1CjA7WsTJwZk.jpg\"},\"budget\":165000000,\"genres\":[{\"id\":28,\"name\":\"Action\"},{\"id\":12,\"name\":\"Adventure\"},{\"id\":14,\"name\":\"Fantasy\"},{\"id\":878,\"name\":\"Science Fiction\"}],\"homepage\":\"http://marvel.com/doctorstrange\",\"id\":284052,\"imdb_id\":\"tt1211837\",\"original_language\":\"en\",\"original_title\":\"Doctor Strange\",\"overview\":\"After his career is destroyed, a brilliant but arrogant surgeon gets a new lease on life when a sorcerer takes him under her wing and trains him to defend the world against evil.\",\"popularity\":1636.313,\"poster_path\":\"/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg\",\"production_companies\":[{\"id\":420,\"logo_path\":\"/hUzeosd33nzE5MCNsZxCGEKTXaQ.png\",\"name\":\"Marvel Studios\",\"origin_country\":\"US\"}],\"production_countries\":[{\"iso_3166_1\":\"US\",\"name\":\"United States of America\"}],\"release_date\":\"2016-10-25\",\"revenue\":677700000,\"runtime\":115,\"spoken_languages\":[{\"english_name\":\"English\",\"iso_639_1\":\"en\",\"name\":\"English\"}],\"status\":\"Released\",\"tagline\":\"The impossibilities are endless.\",\"title\":\"Doctor Strange\",\"video\":false,\"vote_average\":7.4,\"vote_count\":18972}"
+				}
+			</script>
+		</div>
+	</body>
+</html>

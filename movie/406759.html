@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content=""><title>Movies App</title>
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-760fbc68.css">
+	<link rel="stylesheet" href="/_app/assets/pages/movie/_id_.svelte-09718b08.css">
+	<link rel="modulepreload" href="/_app/start-99fb72aa.js">
+	<link rel="modulepreload" href="/_app/chunks/index-bb418885.js">
+	<link rel="modulepreload" href="/_app/chunks/singletons-d1fb5791.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-82e98f99.js">
+	<link rel="modulepreload" href="/_app/pages/movie/_id_.svelte-dab2f65e.js">
+	<link rel="modulepreload" href="/_app/chunks/index-8071ad13.js">
+	</head>
+	<body>
+		<div>
+
+
+
+
+<nav class="svelte-jzp9vu"><h1><a href="/" class="svelte-jzp9vu">Movies Database </a></h1>
+</nav>
+
+<div class="movie-details svelte-hct37n"><div class="img-container svelte-hct37n"><img src="https://image.tmdb.org/t/p/original/9Ngw106BLlNJ4iVpRHlrDfaLpCV.jpg" alt="movieDetails.title" class="svelte-hct37n"></div>
+	<div class="data-container"><h1 class="svelte-hct37n">Moonfall</h1>
+		<div class="movie-numbers svelte-hct37n"><div><span class="svelte-hct37n">Release Date: </span>
+				3 Feb 2022</div>
+			<div><span class="svelte-hct37n">Rating: </span>
+				6.5/10 (1k votes)
+			</div>
+			<div><span class="svelte-hct37n">Budget: </span>
+				146 M</div>
+			<div><span class="svelte-hct37n">Runtime: </span>
+				2 hr 10 mins
+			</div></div>
+		<p class="description svelte-hct37n">A mysterious force knocks the moon from its orbit around Earth and sends it hurtling on a collision course with life as we know it.</p></div>
+</div>
+
+
+		<script type="module" data-hydrate="11mlanw">
+		import { start } from "/_app/start-99fb72aa.js";
+		start({
+			target: document.querySelector('[data-hydrate="11mlanw"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-82e98f99.js"),
+						import("/_app/pages/movie/_id_.svelte-dab2f65e.js")
+				],
+				params: {id:"406759"},
+				routeId: "movie/[id]"
+			}
+		});
+	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="https://api.themoviedb.org/3/movie/406759?api_key=b5bc75631810aa3e97c310dfa067d9b0&amp;language=en-US">{"status":200,"statusText":"OK","headers":{"access-control-allow-methods":"GET, HEAD, POST, PUT, DELETE, OPTIONS","access-control-allow-origin":"*","access-control-expose-headers":"ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range","age":"14804","cache-control":"public, max-age=28800","connection":"close","content-encoding":"gzip","content-type":"application/json;charset=utf-8","date":"Wed, 18 May 2022 05:50:15 GMT","server":"openresty","transfer-encoding":"chunked","vary":"Accept-Encoding","via":"1.1 65387a3a4aa9b7fc27436ee51ead063c.cloudfront.net (CloudFront)","x-amz-cf-id":"drA6fmHPfzwbKyW8wCOURdUEV1dLe3uibpGsnwA9Wams38ogfIcFYg==","x-amz-cf-pop":"MRS52-C1","x-cache":"Hit from cloudfront","x-memc":"HIT","x-memc-age":"4029","x-memc-expires":"12622","x-memc-key":"685dc7c0aa03ec174e2b15bd5e54002717f7544f"},"body":"{\"adult\":false,\"backdrop_path\":\"/9Ngw106BLlNJ4iVpRHlrDfaLpCV.jpg\",\"belongs_to_collection\":null,\"budget\":146000000,\"genres\":[{\"id\":878,\"name\":\"Science Fiction\"},{\"id\":12,\"name\":\"Adventure\"},{\"id\":28,\"name\":\"Action\"}],\"homepage\":\"https://moonfall.movie\",\"id\":406759,\"imdb_id\":\"tt5834426\",\"original_language\":\"en\",\"original_title\":\"Moonfall\",\"overview\":\"A mysterious force knocks the moon from its orbit around Earth and sends it hurtling on a collision course with life as we know it.\",\"popularity\":2084.077,\"poster_path\":\"/odVv1sqVs0KxBXiA8bhIBlPgalx.jpg\",\"production_companies\":[{\"id\":347,\"logo_path\":null,\"name\":\"Centropolis Entertainment\",\"origin_country\":\"US\"},{\"id\":89488,\"logo_path\":null,\"name\":\"Huayi Tencent Entertainment Company\",\"origin_country\":\"HK\"},{\"id\":114885,\"logo_path\":null,\"name\":\"Street Entertainment\",\"origin_country\":\"US\"},{\"id\":1632,\"logo_path\":\"/cisLn1YAUuptXVBa0xjq7ST9cH0.png\",\"name\":\"Lionsgate\",\"origin_country\":\"US\"},{\"id\":110799,\"logo_path\":\"/eHjtiQJjrGQTooEsBmPSYoUnNB.png\",\"name\":\"AGC Studios\",\"origin_country\":\"US\"}],\"production_countries\":[{\"iso_3166_1\":\"HK\",\"name\":\"Hong Kong\"},{\"iso_3166_1\":\"US\",\"name\":\"United States of America\"}],\"release_date\":\"2022-02-03\",\"revenue\":43900000,\"runtime\":130,\"spoken_languages\":[{\"english_name\":\"English\",\"iso_639_1\":\"en\",\"name\":\"English\"}],\"status\":\"Released\",\"tagline\":\"Humanity will face the dark side of the Moon.\",\"title\":\"Moonfall\",\"video\":false,\"vote_average\":6.5,\"vote_count\":1025}"}</script></div>
+	</body>
+</html>

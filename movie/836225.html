@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content=""><title>Movies App</title>
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-760fbc68.css">
+	<link rel="stylesheet" href="/_app/assets/pages/movie/_id_.svelte-09718b08.css">
+	<link rel="modulepreload" href="/_app/start-99fb72aa.js">
+	<link rel="modulepreload" href="/_app/chunks/index-bb418885.js">
+	<link rel="modulepreload" href="/_app/chunks/singletons-d1fb5791.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-82e98f99.js">
+	<link rel="modulepreload" href="/_app/pages/movie/_id_.svelte-dab2f65e.js">
+	<link rel="modulepreload" href="/_app/chunks/index-8071ad13.js">
+	</head>
+	<body>
+		<div>
+
+
+
+
+<nav class="svelte-jzp9vu"><h1><a href="/" class="svelte-jzp9vu">Movies Database </a></h1>
+</nav>
+
+<div class="movie-details svelte-hct37n"><div class="img-container svelte-hct37n"><img src="https://image.tmdb.org/t/p/original/jCDycDqFJ1dIv5iJfTfub2h4ZAB.jpg" alt="movieDetails.title" class="svelte-hct37n"></div>
+	<div class="data-container"><h1 class="svelte-hct37n">The Exorcism of God</h1>
+		<div class="movie-numbers svelte-hct37n"><div><span class="svelte-hct37n">Release Date: </span>
+				10 Feb 2022</div>
+			<div><span class="svelte-hct37n">Rating: </span>
+				6.9/10 (138 votes)
+			</div>
+			<div><span class="svelte-hct37n">Budget: </span>
+				1 M</div>
+			<div><span class="svelte-hct37n">Runtime: </span>
+				1 hr 38 mins
+			</div></div>
+		<p class="description svelte-hct37n">An American priest working in Mexico is considered a saint by many local parishioners. However, due to a botched exorcism, he carries a secret that’s eating him alive until he gets an opportunity to face his demon one final time.</p></div>
+</div>
+
+
+		<script type="module" data-hydrate="11zwqtu">
+		import { start } from "/_app/start-99fb72aa.js";
+		start({
+			target: document.querySelector('[data-hydrate="11zwqtu"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-82e98f99.js"),
+						import("/_app/pages/movie/_id_.svelte-dab2f65e.js")
+				],
+				params: {id:"836225"},
+				routeId: "movie/[id]"
+			}
+		});
+	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="https://api.themoviedb.org/3/movie/836225?api_key=b5bc75631810aa3e97c310dfa067d9b0&amp;language=en-US">{"status":200,"statusText":"OK","headers":{"access-control-allow-methods":"GET, HEAD, POST, PUT, DELETE, OPTIONS","access-control-allow-origin":"*","access-control-expose-headers":"ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range","age":"14804","cache-control":"public, max-age=28800","connection":"close","content-encoding":"gzip","content-type":"application/json;charset=utf-8","date":"Wed, 18 May 2022 05:50:17 GMT","server":"openresty","transfer-encoding":"chunked","vary":"Accept-Encoding","via":"1.1 784f586433bc40f71b41292dd41fb31a.cloudfront.net (CloudFront)","x-amz-cf-id":"nlhtdR4WAAm26urM1vmFEpCTHCWE79urREuZ1Kwh0Nh63Kl2jRS66Q==","x-amz-cf-pop":"MRS52-C1","x-cache":"Hit from cloudfront","x-memc":"HIT","x-memc-age":"13645","x-memc-expires":"3766","x-memc-key":"343dba66d0ca9d232b0295278caaaf852df1d085"},"body":"{\"adult\":false,\"backdrop_path\":\"/jCDycDqFJ1dIv5iJfTfub2h4ZAB.jpg\",\"belongs_to_collection\":null,\"budget\":1500000,\"genres\":[{\"id\":27,\"name\":\"Horror\"}],\"homepage\":\"\",\"id\":836225,\"imdb_id\":\"tt10362566\",\"original_language\":\"en\",\"original_title\":\"The Exorcism of God\",\"overview\":\"An American priest working in Mexico is considered a saint by many local parishioners. However, due to a botched exorcism, he carries a secret that’s eating him alive until he gets an opportunity to face his demon one final time.\",\"popularity\":2435.654,\"poster_path\":\"/hangTmbxpSV4gpHG7MgSlCWSSFa.jpg\",\"production_companies\":[{\"id\":155347,\"logo_path\":null,\"name\":\"Epica Pictures INC\",\"origin_country\":\"\"}],\"production_countries\":[{\"iso_3166_1\":\"MX\",\"name\":\"Mexico\"},{\"iso_3166_1\":\"US\",\"name\":\"United States of America\"},{\"iso_3166_1\":\"VE\",\"name\":\"Venezuela\"}],\"release_date\":\"2022-02-10\",\"revenue\":0,\"runtime\":98,\"spoken_languages\":[{\"english_name\":\"English\",\"iso_639_1\":\"en\",\"name\":\"English\"},{\"english_name\":\"Spanish\",\"iso_639_1\":\"es\",\"name\":\"Español\"}],\"status\":\"Released\",\"tagline\":\"God and the Devil cannot exist in the same body.\",\"title\":\"The Exorcism of God\",\"video\":false,\"vote_average\":6.9,\"vote_count\":138}"}</script></div>
+	</body>
+</html>

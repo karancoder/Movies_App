@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content=""><title>Movies App</title>
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-760fbc68.css">
+	<link rel="stylesheet" href="/_app/assets/pages/movie/_id_.svelte-09718b08.css">
+	<link rel="modulepreload" href="/_app/start-99fb72aa.js">
+	<link rel="modulepreload" href="/_app/chunks/index-bb418885.js">
+	<link rel="modulepreload" href="/_app/chunks/singletons-d1fb5791.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-82e98f99.js">
+	<link rel="modulepreload" href="/_app/pages/movie/_id_.svelte-dab2f65e.js">
+	<link rel="modulepreload" href="/_app/chunks/index-8071ad13.js">
+	</head>
+	<body>
+		<div>
+
+
+
+
+<nav class="svelte-jzp9vu"><h1><a href="/" class="svelte-jzp9vu">Movies Database </a></h1>
+</nav>
+
+<div class="movie-details svelte-hct37n"><div class="img-container svelte-hct37n"><img src="https://image.tmdb.org/t/p/original/i0zbSmiyyylh7H3Qb4jgscz46Pm.jpg" alt="movieDetails.title" class="svelte-hct37n"></div>
+	<div class="data-container"><h1 class="svelte-hct37n">Virus:32</h1>
+		<div class="movie-numbers svelte-hct37n"><div><span class="svelte-hct37n">Release Date: </span>
+				21 Apr 2022</div>
+			<div><span class="svelte-hct37n">Rating: </span>
+				7/10 (49 votes)
+			</div>
+			<div><span class="svelte-hct37n">Budget: </span>
+				-</div>
+			<div><span class="svelte-hct37n">Runtime: </span>
+				1 hr 30 mins
+			</div></div>
+		<p class="description svelte-hct37n">A virus is unleashed and a chilling massacre runs through the streets of Montevideo.</p></div>
+</div>
+
+
+		<script type="module" data-hydrate="1x92llc">
+		import { start } from "/_app/start-99fb72aa.js";
+		start({
+			target: document.querySelector('[data-hydrate="1x92llc"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-82e98f99.js"),
+						import("/_app/pages/movie/_id_.svelte-dab2f65e.js")
+				],
+				params: {id:"893370"},
+				routeId: "movie/[id]"
+			}
+		});
+	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="https://api.themoviedb.org/3/movie/893370?api_key=b5bc75631810aa3e97c310dfa067d9b0&amp;language=en-US">{"status":200,"statusText":"OK","headers":{"access-control-allow-methods":"GET, HEAD, POST, PUT, DELETE, OPTIONS","access-control-allow-origin":"*","access-control-expose-headers":"ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range","age":"14804","cache-control":"public, max-age=28800","connection":"close","content-encoding":"gzip","content-type":"application/json;charset=utf-8","date":"Wed, 18 May 2022 05:50:20 GMT","server":"openresty","transfer-encoding":"chunked","vary":"Accept-Encoding","via":"1.1 e922f68baf39b36844fe5c5e357acbc2.cloudfront.net (CloudFront)","x-amz-cf-id":"f8vPf7zYLUz3AmS1uaWNvuj4H8KLzk1XAvw7ki6MSEEMLaUp-od0jQ==","x-amz-cf-pop":"MRS52-C1","x-cache":"Hit from cloudfront","x-memc":"HIT","x-memc-age":"15918","x-memc-expires":"343","x-memc-key":"b32a720b8bdc75a4b6f903594c268b77dc75c135"},"body":"{\"adult\":false,\"backdrop_path\":\"/i0zbSmiyyylh7H3Qb4jgscz46Pm.jpg\",\"belongs_to_collection\":null,\"budget\":0,\"genres\":[{\"id\":27,\"name\":\"Horror\"}],\"homepage\":\"\",\"id\":893370,\"imdb_id\":\"tt12298140\",\"original_language\":\"es\",\"original_title\":\"Virus-32\",\"overview\":\"A virus is unleashed and a chilling massacre runs through the streets of Montevideo.\",\"popularity\":1923.72,\"poster_path\":\"/wZiF79hbhLK1U2Pj9bF67NAKXQR.jpg\",\"production_companies\":[{\"id\":61358,\"logo_path\":null,\"name\":\"Latido Films\",\"origin_country\":\"\"}],\"production_countries\":[{\"iso_3166_1\":\"AR\",\"name\":\"Argentina\"},{\"iso_3166_1\":\"UY\",\"name\":\"Uruguay\"}],\"release_date\":\"2022-04-21\",\"revenue\":0,\"runtime\":90,\"spoken_languages\":[{\"english_name\":\"Spanish\",\"iso_639_1\":\"es\",\"name\":\"Español\"}],\"status\":\"Released\",\"tagline\":\"32 seconds to live or die.\",\"title\":\"Virus:32\",\"video\":false,\"vote_average\":7.0,\"vote_count\":49}"}</script></div>
+	</body>
+</html>

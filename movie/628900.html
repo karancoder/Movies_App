@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content=""><title>Movies App</title>
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-760fbc68.css">
+	<link rel="stylesheet" href="/_app/assets/pages/movie/_id_.svelte-09718b08.css">
+	<link rel="modulepreload" href="/_app/start-99fb72aa.js">
+	<link rel="modulepreload" href="/_app/chunks/index-bb418885.js">
+	<link rel="modulepreload" href="/_app/chunks/singletons-d1fb5791.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-82e98f99.js">
+	<link rel="modulepreload" href="/_app/pages/movie/_id_.svelte-dab2f65e.js">
+	<link rel="modulepreload" href="/_app/chunks/index-8071ad13.js">
+	</head>
+	<body>
+		<div>
+
+
+
+
+<nav class="svelte-jzp9vu"><h1><a href="/" class="svelte-jzp9vu">Movies Database </a></h1>
+</nav>
+
+<div class="movie-details svelte-hct37n"><div class="img-container svelte-hct37n"><img src="https://image.tmdb.org/t/p/original/figlwUsXXFehX3IebdjqNLV6vWk.jpg" alt="movieDetails.title" class="svelte-hct37n"></div>
+	<div class="data-container"><h1 class="svelte-hct37n">The Contractor</h1>
+		<div class="movie-numbers svelte-hct37n"><div><span class="svelte-hct37n">Release Date: </span>
+				10 Mar 2022</div>
+			<div><span class="svelte-hct37n">Rating: </span>
+				6.6/10 (234 votes)
+			</div>
+			<div><span class="svelte-hct37n">Budget: </span>
+				-</div>
+			<div><span class="svelte-hct37n">Runtime: </span>
+				1 hr 43 mins
+			</div></div>
+		<p class="description svelte-hct37n">After being involuntarily discharged from the U.S. Special Forces, James Harper decides to support his family by joining a private contracting organization alongside his best friend and under the command of a fellow veteran. Overseas on a covert mission, Harper must evade those trying to kill him while making his way back home.</p></div>
+</div>
+
+
+		<script type="module" data-hydrate="1x4osm7">
+		import { start } from "/_app/start-99fb72aa.js";
+		start({
+			target: document.querySelector('[data-hydrate="1x4osm7"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-82e98f99.js"),
+						import("/_app/pages/movie/_id_.svelte-dab2f65e.js")
+				],
+				params: {id:"628900"},
+				routeId: "movie/[id]"
+			}
+		});
+	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="https://api.themoviedb.org/3/movie/628900?api_key=b5bc75631810aa3e97c310dfa067d9b0&amp;language=en-US">{"status":200,"statusText":"OK","headers":{"access-control-allow-methods":"GET, HEAD, POST, PUT, DELETE, OPTIONS","access-control-allow-origin":"*","access-control-expose-headers":"ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range","age":"14804","cache-control":"public, max-age=28800","connection":"close","content-encoding":"gzip","content-type":"application/json;charset=utf-8","date":"Wed, 18 May 2022 05:50:16 GMT","server":"openresty","transfer-encoding":"chunked","vary":"Accept-Encoding","via":"1.1 399fff0d7674a4aa3365472c55ac3fb0.cloudfront.net (CloudFront)","x-amz-cf-id":"6KCJxsgNK2-iRkt_xl87PDW92VVadz3VJzIZgECsGU0Qly8rfT9i7Q==","x-amz-cf-pop":"MRS52-C1","x-cache":"Hit from cloudfront","x-memc":"HIT","x-memc-age":"1623","x-memc-expires":"14462","x-memc-key":"735db2f0830050f98bc4119acefe1bd482eeb9d8"},"body":"{\"adult\":false,\"backdrop_path\":\"/figlwUsXXFehX3IebdjqNLV6vWk.jpg\",\"belongs_to_collection\":null,\"budget\":0,\"genres\":[{\"id\":28,\"name\":\"Action\"},{\"id\":53,\"name\":\"Thriller\"}],\"homepage\":\"\",\"id\":628900,\"imdb_id\":\"tt10323676\",\"original_language\":\"en\",\"original_title\":\"The Contractor\",\"overview\":\"After being involuntarily discharged from the U.S. Special Forces, James Harper decides to support his family by joining a private contracting organization alongside his best friend and under the command of a fellow veteran. Overseas on a covert mission, Harper must evade those trying to kill him while making his way back home.\",\"popularity\":2450.022,\"poster_path\":\"/rJPGPZ5soaG27MK90oKpioSiJE2.jpg\",\"production_companies\":[{\"id\":3528,\"logo_path\":\"/cCzCClIzIh81Fa79hpW5nXoUsHK.png\",\"name\":\"Thunder Road\",\"origin_country\":\"US\"},{\"id\":104363,\"logo_path\":\"/jnmqDxwCVAbKJkne5TDSkhj7mzo.png\",\"name\":\"30WEST\",\"origin_country\":\"US\"},{\"id\":47729,\"logo_path\":\"/5NRpQ7xxmODXAjt2pRWUFMLVzvP.png\",\"name\":\"STX Entertainment\",\"origin_country\":\"US\"},{\"id\":290,\"logo_path\":\"/Q8mw2AOQQc8Qg0uNwLWq86DVZv.png\",\"name\":\"Ingenious Media\",\"origin_country\":\"GB\"}],\"production_countries\":[{\"iso_3166_1\":\"US\",\"name\":\"United States of America\"}],\"release_date\":\"2022-03-10\",\"revenue\":0,\"runtime\":103,\"spoken_languages\":[{\"english_name\":\"English\",\"iso_639_1\":\"en\",\"name\":\"English\"}],\"status\":\"Released\",\"tagline\":\"The mission is not what it seems.\",\"title\":\"The Contractor\",\"video\":false,\"vote_average\":6.6,\"vote_count\":234}"}</script></div>
+	</body>
+</html>
