@@ -534,7 +534,7 @@ class Ut extends at {
 }
 const At = 'modulepreload',
 	Ye = {},
-	Ot = '/_app/',
+	Ot = './_app/',
 	se = function (e, t) {
 		return !t || t.length === 0
 			? e()
