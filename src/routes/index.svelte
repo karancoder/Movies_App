@@ -12,6 +12,7 @@
 				props: { popular: data.results }
 			};
 		}
+		return {};
 	}
 </script>
 

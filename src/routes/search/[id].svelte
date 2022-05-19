@@ -12,6 +12,7 @@
 				props: { searchedMovies: data.results }
 			};
 		}
+		return {};
 	}
 </script>
 

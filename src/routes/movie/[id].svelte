@@ -12,6 +12,7 @@
 				props: { movieDetails }
 			};
 		}
+		return {};
 	}
 </script>
 
